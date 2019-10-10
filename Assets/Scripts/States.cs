@@ -37,7 +37,7 @@ public class States : CatMovement
         yield return new WaitForSeconds(1);
         countDown.text = "";
         anim.speed = 1.3f;
-        GameObject.Find("Cat Lite").GetComponent<CatMovement>().speed = 8;
+        GameObject.Find("Cat Lite").GetComponent<CatMovement>().speed = 12;
     }
 
     // Update is called once per frame
